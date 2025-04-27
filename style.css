@@ -1,0 +1,48 @@
+
+p {
+    background-color: lightyellow;
+}
+
+.main-title {
+    background-color: lightblue;
+}
+
+#special-div {
+    background-color: lightcoral;
+}
+
+[data-info] {
+    background-color: lightgreen;
+}
+
+.block1 .block2 {
+    background-color: lightsalmon;
+}
+
+section > p {
+    background-color: lightpink;
+}
+
+.block .highlight {
+    background-color: lightseagreen;
+}
+
+h2.subtitle {
+    background-color: plum;
+}
+
+div[data-type] {
+    background-color: lightgray;
+}
+
+p#intro-text {
+    background-color: lightgoldenrodyellow;
+}
+
+.wrapper .content p {
+    background-color: lightskyblue;
+}
+
+section#main-section .container .header-title {
+    background-color: lightsteelblue;
+}
