@@ -19,7 +19,7 @@ p {
     background-color: lightsalmon;
 }
 
-section > p {
+div > p {
     background-color: lightpink;
 }
 
