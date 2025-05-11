@@ -33,32 +33,31 @@ a:hover {
     background-color: #34547A;
     color: white;
     border: none;
-    padding: 17px 41px;
+    padding: 12px 41px;
     font-size: 14px;
     cursor: pointer;
+    font-weight: 400;
+    line-height: 164%;
+    letter-spacing: 10%;
 }
 
 .content {
-    width: 1110px;
+    width: 100%;
+    max-width: 1110px;
     height: 700px;
     display: flex;
  
 }
 
 .part-blok-1 {
-    width: 50%;
+    width: 100%;
+    max-width: 550px;
     height: 700px;
     display: flex;
     flex-direction: column;
 }
 
 
-.part-blok-2 {
-    width: 50%;
-    height: auto;
-
- 
-}
 
 .menu {
     margin-top: 79px;
@@ -74,7 +73,85 @@ a:hover {
     line-height: 164%;
     letter-spacing: 10%;
 }
+.second-blok {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.article {
+    width: 100%;
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 112px;
+    margin-bottom: 100px;
+}
 
+.article__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+}
+
+.article__text {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    letter-spacing: 0%
+}
+
+.thirt-blok {
+    width: 100%;
+    height: 250px;
+    background-color: #34547A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirt-blok__element {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 20px;
+}
+
+.thirt-blok__elements {
+    width: 100%;
+    max-width: 1110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 65px;
+    flex-wrap: wrap;
+}
+
+.second-part__text {
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.second-part {
+    color: white;
+}
+
+.second-part__title {
+    font-weight: 450;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-size: 19px;
+}
 
 
