@@ -1,0 +1,222 @@
+
+.container {
+    background-color: $backgroundcolor;
+}
+
+header.container,
+.design-layout {
+    background-color: $backgroundcolor;
+}
+
+.menu {
+    padding: {
+        top: 79px;
+        bottom: 81px;
+    }
+    .menu__items {
+        display: flex;
+        flex-direction: row;
+        gap: 55px;
+        font-weight: 400;
+        font-size: $font-size-p;
+        line-height: $line-height;
+        letter-spacing: 10%;
+}
+}
+                      
+.design-layout {
+    padding: {
+        top: 81px;
+        bottom: 141px;
+    }
+
+    .design-layout__title {
+        font-weight: $font-weight;
+        font-size: 48px;
+        line-height: $line-height;
+        letter-spacing: 0%;
+        margin-bottom: 65px;
+        }
+
+    .design-layout__text {
+        color: #727272;
+        font-weight: 400;
+        font-size: $font-size-p;
+        line-height: $line-height;
+        letter-spacing: 0%;
+        margin-bottom: 65px;
+        width: 540px;
+        }
+
+    .design-layout__button {
+        background-color: $designcolor;
+        color: white;
+        border: none;
+        padding: 12px 41px;
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: 400;
+        line-height: $line-height;
+        letter-spacing: 10%;
+        }
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 100px;
+    background-color: white;
+
+    .about-me__title {
+        font-weight: $font-weight;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin-bottom: 40px;
+    } 
+        
+    .about-me__text {
+        color: #727272;
+        font-weight: 400;
+        font-size: $font-size-p;
+        line-height: $line-height;
+        letter-spacing: 0%;
+        width: 540px;
+  
+    }
+}
+
+.projects {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .projects__elements {
+        width: 1110px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 65px;
+        flex-wrap: wrap;
+        
+        .projects__element {
+            display: flex;
+            flex-direction: row;
+            align-items: end;
+            gap: 20px;
+    
+            .second-part {
+                color: white;
+                .second-part__title {
+                    font-weight: 450;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    font-size: 19px;
+                }
+                .second-part__text {
+                    font-weight: 400;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    font-size: $font-size-p;
+                    margin-top: 8px;
+                    }
+            }
+    }
+}
+}
+
+.how-i-work {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 57px;
+    text-align: center;
+
+    .how-i-work__title {
+        font-size: 32px;
+        font-weight: $font-weight;
+        margin-bottom: 40px;
+        line-height: 100%;
+        letter-spacing: 0%;
+}
+
+    .how-i-work__text {
+        color: #727272;
+        font-weight: 400;
+        font-size: $font-size-p;
+        line-height: $line-height;
+        letter-spacing: 0%;
+        width: 540px;
+}
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+
+    .picture__element {
+        width: 1110px;
+        height: 600px;
+        background-image: url(../images/photo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.footer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .footer__text {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: $line-height;
+        color: white;
+    }
+
+    .footer__title {
+        font-size: 21px;
+        font-weight: 450;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: white;
+        padding-bottom: 13px;
+    }
+}
+
+
+
+.container__about-me {
+    background-color: white;
+}
+.content {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+
+a:hover {
+    color: $designcolor;
+}
+
+
+
+.container__footer,
+.container__projects {
+    background-color: $designcolor;
+}
